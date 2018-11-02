@@ -122,6 +122,13 @@ em {
     text-align: center;
     color: #efa747;
 }
+.youtubeLink{
+    
+    display:block;
+     margin: 0px;    
+    text-align: center;
+    position: relative;
+}
 #imgP{
     margin: auto;
     display: block;
@@ -171,24 +178,9 @@ em {
     font-style: italic;
     margin-top: 3px;
     margin-bottom: 3px;
-
 }
 
-#bloqDer{
-    height: 660px;
-    float: right;
-    width: 500px;
-    background-color: whitesmoke;
-    padding-bottom: 12px;
-}
-#bloqIzq{
-    height: 660px;
-    float: left;
-    width: 500px;       
-    
-    background-color: whitesmoke;
-    padding-bottom: 12px;
-}
+
 #tarjeta{
     
     margin: auto;
@@ -196,9 +188,22 @@ em {
     float: center;
     border-style: dotted;
 }
+#tarjeta2{      
+    margin:auto;
+    padding: 19px;    
+    display: block;
+    float: center;
+    transition: all .3s ease-out;
+    
+}
 #tarjeta:hover{
         transform:scale(1.1);
         box-shadow: 4px 7px 10px 0  #413e3a;
+}
+#tarjeta2:hover{
+    transform:scale(1.1);
+    transform:(-2, 12px);
+    box-shadow: 6px 8px 12px 0  #133b86;
 }
 #bio:hover{
     transform:scale(1.1);
