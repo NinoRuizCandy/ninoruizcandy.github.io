@@ -1,0 +1,211 @@
+body{
+    background-image: url("../imagenes/fondo.png");
+    margin: 0px;
+    height: 350px;
+    background-size: cover;    
+}
+h5{
+    margin-top: 0%;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(31, 96, 216);
+    text-align: center;
+    font-family: 'Montserrat'
+}
+h3{
+    
+    text-transform: uppercase;
+    font-size: 15px;
+    color:#3878ee;    
+    font-family: 'Sarala';
+    font-style: italic;
+}
+li{
+    text-transform: uppercase;
+    list-style-type: initial;
+    margin-left: 10%;
+    margin-right: 13%;    
+    padding-bottom: 8px;
+    font-family: 'Sarala';
+    color: #292a41;
+    
+}
+
+h2{
+    font-family: 'Merriweather';
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0px 10px 0px; 
+    font-size: 27px;
+}
+nav{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    background-color:#efa747;    
+}
+hr{
+    color:  rgb(42, 107, 228);
+    width: 80%;
+    margin-top: 10px;
+}
+p{
+    color: #292a41;
+    text-align: justify;
+    font-family:'Sarala';
+}
+em {
+    font-family:'Sarala';
+    margin-top: 400px;
+    font-style: italic;
+    color: #292a41;
+    font-size: 16px;
+    margin-left: 10%;
+    
+}
+.pCent{
+    text-transform: none;
+    font-size: 17px;
+    margin-top: 14px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 12px;   
+}
+.pDer{
+    font-size: 17px;
+    margin-top: 8px;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-bottom: 8px;   
+}
+.titIni{
+    font-weight: bold;
+    color:  #ff9e1f;
+    margin: 10px 0px 10px 0px; 
+    font-size: 33px;
+    text-shadow: 3px 3px  #565f6e;   
+}
+.menu{
+    display: inline-block;
+    width: auto;
+    margin: 18px 23px 18px 23px;        
+    border: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    font-family:  'Slabo 27px ';
+    color: rgb(9, 74, 196);
+    background-color: #efa747;
+    text-decoration: none;
+    transition: background-color 0.3s ease-out, color 0.2s ease-out;
+}
+
+.menu:hover,.btn:active{
+    color: white;
+    transform:scale(1.2);
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.selec{
+    color: #292a41;
+}   
+.contenido{
+    background: whitesmoke;
+    margin-top: 0px;
+    padding-top: 40px;
+    text-align: justify;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+}
+.subMenu  {
+    text-align: center;
+    color: #efa747;
+}
+#imgP{
+    margin: auto;
+    display: block;
+}
+
+#bio{
+    padding-bottom: 10px;    
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    float: right;
+    margin-right: 15%;
+    margin-left: 5%;    
+}
+
+#portada{   
+    
+    display: block;
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 5%;
+    padding: 8px;    
+    transition: all .3s ease-out;
+}
+
+#l2{
+    list-style-image: url("../imagenes/jhs.png#"); 
+    
+}
+#l3{
+    text-transform: none;
+    font-style: italic;
+}
+
+#fin{
+    text-align-last: right;
+    font-style: italic;
+    margin-right: 8%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#pMed{
+    font-size: 17px;
+    font-family: 'Libre Baskervilles';
+    text-align: center; 
+    font-style: italic;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+#bloqDer{
+    height: 660px;
+    float: right;
+    width: 500px;
+    background-color: whitesmoke;
+    padding-bottom: 12px;
+}
+#bloqIzq{
+    height: 660px;
+    float: left;
+    width: 500px;       
+    
+    background-color: whitesmoke;
+    padding-bottom: 12px;
+}
+#tarjeta{
+    
+    margin: auto;
+    display: block;
+    float: center;
+    border-style: dotted;
+}
+#tarjeta:hover{
+        transform:scale(1.1);
+        box-shadow: 4px 7px 10px 0  #413e3a;
+}
+#bio:hover{
+    transform:scale(1.1);
+    box-shadow: 4px 7px 10px 0  #efa747;
+}
+#portada:hover{
+    transform:scale(1.1);
+    transform:(-5, 10px);
+    box-shadow: 4px 7px 10px 0  #133b86;
+}
