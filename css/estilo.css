@@ -122,12 +122,12 @@ em {
     text-align: center;
     color: #efa747;
 }
-.youtubeLink{
-    
+.youtubeLink{    
+    width: 640px;
+    height: 360px;
     display:block;
-     margin: 0px;    
-    text-align: center;
-    position: relative;
+    margin:auto;
+    padding-bottom: 20px
 }
 #imgP{
     margin: auto;
